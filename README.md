@@ -1,15 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and
+[a9g-starter](https://github.com/ahoendgen/nextjs-a9g-starter).
+
+## Install
+
+```bash
+yarn create next-app NAME -e https://github.com/ahoendgen/nextjs-a9g-starter
+```
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,17 +23,31 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Component generation with [@a9g/plop-generator-react-atomic-component](https://npmjs.com/package/@a9g/plop-generator-react-atomic-component) `yarn make`
+- Path aliases
+  - `@app` - `src/app/`
+  - `@components` - `src/components/`
+  - `@framework` - `src/framework/`
+- Fine-tuned ESLint configuration
+- Volta pinned Node and Yarn versions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Packages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [swr](https://npmjs.com/package/swr)
 
-## Deploy on Vercel
+### Dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [@a9g/plop-generator-react-atomic-component](https://npmjs.com/package/@a9g/plop-generator-react-atomic-component)
+- [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin)
+- [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser)
+- [eslint-config-next](https://npmjs.com/package/eslint-config-next)
+- [eslint-config-prettier](https://npmjs.com/package/eslint-config-prettier)
+- [eslint-import-resolver-typescript](https://npmjs.com/package/eslint-import-resolver-typescript)
+- [eslint-plugin-import](https://npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-jsx-a11y](https://npmjs.com/package/eslint-plugin-jsx-a11y)
+- [eslint-plugin-prettier](https://npmjs.com/package/eslint-plugin-prettier)
+- [eslint-plugin-simple-import-sort](https://npmjs.com/package/eslint-plugin-simple-import-sort)
+- [plop](https://npmjs.com/package/plop)
+- [prettier](https://npmjs.com/package/prettier)
