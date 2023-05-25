@@ -51,3 +51,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - [eslint-plugin-simple-import-sort](https://npmjs.com/package/eslint-plugin-simple-import-sort)
 - [plop](https://npmjs.com/package/plop)
 - [prettier](https://npmjs.com/package/prettier)
+- [typescript-plugin-css-modules](https://npmjs.com/package/typescript-plugin-css-modules)
