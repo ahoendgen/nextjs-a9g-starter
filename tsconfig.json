@@ -21,6 +21,9 @@
         "plugins": [
             {
                 "name": "next"
+            },
+            {
+                "name": "typescript-plugin-css-modules"
             }
         ],
         "paths": {
@@ -37,7 +40,6 @@
     },
     "include": [
         "next-env.d.ts",
-        "additional.d.ts",
         "**/*.ts",
         "**/*.tsx",
         ".next/types/**/*.ts"
