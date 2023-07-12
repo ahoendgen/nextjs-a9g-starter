@@ -27,7 +27,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 - Component generation with [@a9g/plop-generator-react-atomic-component](https://npmjs.com/package/@a9g/plop-generator-react-atomic-component) `yarn make`
 - Path aliases
-  - `@app` - `src/app/`
+  - `@pages` - `src/pages`
   - `@components` - `src/components/`
   - `@framework` - `src/framework/`
 - Fine-tuned ESLint configuration
