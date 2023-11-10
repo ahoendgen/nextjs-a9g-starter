@@ -1,4 +1,4 @@
-import '../styles/globals.scss';
+import './globals.css';
 
 import BaseLayout from '@components/Layout/BaseLayout';
 import { NextPage } from 'next';
